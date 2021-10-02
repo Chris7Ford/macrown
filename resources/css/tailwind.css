@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .primary-font {
+    font-family: "Rubik", Georgia, serif;
+  }
+
+  .secondary-font {
+    font-family: "Karla", "Helvetica Neue", sans-serif;
+  }
+
+  .bg-main-color {
+    background-color: #252236;
+  }
+
+  .bg-secondary-color {
+    background-color: #2e2b41;
+  }
+}

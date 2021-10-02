@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"outDir": "_compiled",
+		"allowJs": true,
+		"checkJs": false,
+		"target": "ES2019",
+		"module": "ESNext",
+		"lib": ["dom", "esnext"],
+		"moduleResolution": "Node",
+		"skipLibCheck": true,
+		"baseUrl": "./templates",
+		"paths": {
+			"controllers/*": ["_controllers/*"],
+			"types/*": ["_types/*"],
+		}
+	},
+	"include": ["resources/views"],
+	"exclude": ["vendor", "node_modules"]
+}

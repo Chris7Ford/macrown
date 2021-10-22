@@ -1,3 +1,13 @@
 sticky-add {
   bottom: 20px;
 }
+sticky-add .sticky-add-options {
+  overflow-y: hidden;
+  max-height: 180px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+sticky-add .sticky-add-options.closed {
+  max-height: 0;
+}

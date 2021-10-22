@@ -2,9 +2,12 @@
     "/js/app.js": "/js/app.js",
     "/js/toast-notification.js": "/js/toast-notification.js",
     "/js/main-navigation.js": "/js/main-navigation.js",
-    "/css/sticky-add.css": "/css/sticky-add.css",
-    "/css/main-navigation.css": "/css/main-navigation.css",
+    "/js/sticky-add.js": "/js/sticky-add.js",
+    "/css/home.css": "/css/home.css",
     "/css/loading.css": "/css/loading.css",
+    "/css/food-macro-accordion.css": "/css/food-macro-accordion.css",
     "/css/normalize.css": "/css/normalize.css",
-    "/css/tailwind.css": "/css/tailwind.css"
+    "/css/tailwind.css": "/css/tailwind.css",
+    "/css/sticky-add.css": "/css/sticky-add.css",
+    "/css/main-navigation.css": "/css/main-navigation.css"
 }

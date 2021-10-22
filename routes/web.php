@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MealController;
+use Illuminate\Http\Request;
+use App\Models\Meal;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +17,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.home.index');
+    return view('pages.home.index',[
+      "mealOverviewData" => MealController::getUserCurrentMealOverview(),
+      "urlSegment" => "meal"
+    ]);
+});
+
+Route::get('/meal/{mealId}', function (Request $request) {
+    $mealId = $request->segment(2);
+    return view('pages.meal.index', [
+      "mealOverviewData" => MealController::getMealFoodsData($mealId),
+      "mealData" => Meal::where("id", $mealId)->first(),
+      "urlSegment" => "food"
+    ]);
 });

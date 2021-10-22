@@ -19307,6 +19307,32 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
+/***/ "./resources/views/base/navigation/main/main-navigation.scss":
+/*!*******************************************************************!*\
+  !*** ./resources/views/base/navigation/main/main-navigation.scss ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/views/base/navigation/sticky-add/sticky-add.scss":
+/*!********************************************************************!*\
+  !*** ./resources/views/base/navigation/sticky-add/sticky-add.scss ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/css/tailwind.css":
 /*!************************************!*\
   !*** ./resources/css/tailwind.css ***!
@@ -19333,6 +19359,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/views/food-macro-accordion/food-macro-accordion.scss":
+/*!************************************************************************!*\
+  !*** ./resources/views/food-macro-accordion/food-macro-accordion.scss ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/views/components/loading/loading.scss":
 /*!*********************************************************!*\
   !*** ./resources/views/components/loading/loading.scss ***!
@@ -19346,23 +19385,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/views/base/navigation/main/main-navigation.scss":
-/*!*******************************************************************!*\
-  !*** ./resources/views/base/navigation/main/main-navigation.scss ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./resources/views/base/navigation/sticky-add/sticky-add.scss":
-/*!********************************************************************!*\
-  !*** ./resources/views/base/navigation/sticky-add/sticky-add.scss ***!
-  \********************************************************************/
+/***/ "./resources/views/pages/home/home.scss":
+/*!**********************************************!*\
+  !*** ./resources/views/pages/home/home.scss ***!
+  \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19688,11 +19714,13 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
-/******/ 			"css/sticky-add": 0,
-/******/ 			"css/main-navigation": 0,
+/******/ 			"css/home": 0,
 /******/ 			"css/loading": 0,
+/******/ 			"css/food-macro-accordion": 0,
 /******/ 			"css/normalize": 0,
-/******/ 			"css/tailwind": 0
+/******/ 			"css/tailwind": 0,
+/******/ 			"css/sticky-add": 0,
+/******/ 			"css/main-navigation": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -19742,12 +19770,14 @@ module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBun
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/sticky-add","css/main-navigation","css/loading","css/normalize","css/tailwind"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/sticky-add","css/main-navigation","css/loading","css/normalize","css/tailwind"], () => (__webpack_require__("./resources/views/components/loading/loading.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/sticky-add","css/main-navigation","css/loading","css/normalize","css/tailwind"], () => (__webpack_require__("./resources/views/base/navigation/main/main-navigation.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/sticky-add","css/main-navigation","css/loading","css/normalize","css/tailwind"], () => (__webpack_require__("./resources/views/base/navigation/sticky-add/sticky-add.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/sticky-add","css/main-navigation","css/loading","css/normalize","css/tailwind"], () => (__webpack_require__("./resources/css/tailwind.css")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/sticky-add","css/main-navigation","css/loading","css/normalize","css/tailwind"], () => (__webpack_require__("./resources/css/normalize.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/home","css/loading","css/food-macro-accordion","css/normalize","css/tailwind","css/sticky-add","css/main-navigation"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/home","css/loading","css/food-macro-accordion","css/normalize","css/tailwind","css/sticky-add","css/main-navigation"], () => (__webpack_require__("./resources/views/food-macro-accordion/food-macro-accordion.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home","css/loading","css/food-macro-accordion","css/normalize","css/tailwind","css/sticky-add","css/main-navigation"], () => (__webpack_require__("./resources/views/components/loading/loading.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home","css/loading","css/food-macro-accordion","css/normalize","css/tailwind","css/sticky-add","css/main-navigation"], () => (__webpack_require__("./resources/views/pages/home/home.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home","css/loading","css/food-macro-accordion","css/normalize","css/tailwind","css/sticky-add","css/main-navigation"], () => (__webpack_require__("./resources/views/base/navigation/main/main-navigation.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home","css/loading","css/food-macro-accordion","css/normalize","css/tailwind","css/sticky-add","css/main-navigation"], () => (__webpack_require__("./resources/views/base/navigation/sticky-add/sticky-add.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/home","css/loading","css/food-macro-accordion","css/normalize","css/tailwind","css/sticky-add","css/main-navigation"], () => (__webpack_require__("./resources/css/tailwind.css")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/home","css/loading","css/food-macro-accordion","css/normalize","css/tailwind","css/sticky-add","css/main-navigation"], () => (__webpack_require__("./resources/css/normalize.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
